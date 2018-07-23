@@ -1,7 +1,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div data-deforestation-root></div>
+<style>
+    .interactive-container {
+        min-height: 300vh;
+        z-index: 1;
+    }
+    p {
+        z-index: 1000;
+    }
+</style>
 
 <!-- 
     Swap this over if not using hot reload
@@ -10,5 +18,37 @@
     <script type="module" src="index.modules.js"></script>
     <script nomodule src="index.js"></script> 
 -->
+<!-- <div id="myel" style="background-color:silver; width:300px; padding:15px; border: solid black 1px">
+    <h1> My first Example </h1>
+    <p> This is a first example of a rotating page. </p>
+    <p>
+        <a href="javascript: taccgl.actor('myel').rotateMiddle(0,1,0).start(); taccgl.start()">Run</a>
+    </p>
+</div> -->
 
+<div data-deforestation-root></div>
+<div class="interactive-container">
+       
+    <div class="interactive"></div>
+    <p>Paragraph text...</p>
+    <p>Paragraph text...</p>
+    <p>Paragraph text...</p>
+    <p>Paragraph text...</p>
+    <p>Paragraph text...</p>
+</div>
+
+
+<!-- <script src="taccgl.js"></script> -->
 <script src="index.js"></script>
+
+
+<!-- <div class="Header is-dark u-full" style="height: 300vh;">
+      
+      
+    
+    <video autoplay="" loop="" list="nodownload" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" poster="PATH-TO-STILL-IMAGE" style="object-fit: cover; position: sticky; top: 5px;" width="100%">
+        <source src="https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type="video/mp4">
+    </video>
+
+
+</div> -->

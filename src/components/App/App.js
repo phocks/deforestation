@@ -1,6 +1,8 @@
 const React = require("react");
 const styles = require("./styles.scss");
 
+
+
 const timeSlip = 10;
 
 class App extends React.Component {
@@ -33,6 +35,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={styles.root}>
+      {/* <h1>Land cleared in australia 1972 - 2014 average rate in real time:</h1> */}
         <h1>🌲🌲🌲 🌲🌲🌲</h1>
         <p>New South Wales: {Math.round(this.state.nsw)}</p>
         <p>Northern Territory: {Math.round(this.state.nt)}</p>

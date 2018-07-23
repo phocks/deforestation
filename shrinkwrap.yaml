@@ -6,6 +6,7 @@ dependencies:
   spanify: 1.2.8
 devDependencies:
   react-test-renderer: 16.4.1
+  stickybits: 3.4.1
 packages:
   /@abcnews/aunty/9.5.1:
     dependencies:
@@ -7212,6 +7213,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
+  /stickybits/3.4.1:
+    dev: true
+    resolution:
+      integrity: sha1-p4ZpU9kDaNJYi50HxxmoeXOqPhg=
   /stream-browserify/2.0.1:
     dependencies:
       inherits: 2.0.3
@@ -8351,3 +8356,4 @@ specifiers:
   react-dom: ^16.4.1
   react-test-renderer: ^16.4.1
   spanify: ^1.2.8
+  stickybits: ^3.4.1

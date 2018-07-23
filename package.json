@@ -1,0 +1,27 @@
+{
+  "name": "deforestation",
+  "version": "1.0.0",
+  "description": "A project generated from aunty's react app template.",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Joshua Byrd <phocks@gmail.com>"
+  ],
+  "aunty": {
+    "type": "react"
+  },
+  "scripts": {
+    "start": "aunty serve",
+    "test": "aunty test"
+  },
+  "devDependencies": {
+    "react-test-renderer": "^16.4.1"
+  },
+  "dependencies": {
+    "@abcnews/aunty": "^9.5.1",
+    "d3": "^5.5.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "spanify": "^1.2.8"
+  }
+}

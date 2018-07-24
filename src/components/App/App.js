@@ -3,12 +3,14 @@ const styles = require("./styles.scss");
 
 const Counter = require("../Counter");
 const Parallax = require("../Parallax");
+const Sketch = require("../Sketch");
 
 class App extends React.Component {
   render() {
     return (
       <div className={styles.root}>
-        <Parallax />
+        {/* <Parallax /> */}
+        <Sketch />
         {/* <Counter /> */}
       </div>
     );

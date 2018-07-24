@@ -1,7 +1,7 @@
 const React = require("react");
 const styles = require("./styles.scss");
 
-
+const Parallax = require("../Parallax/");
 
 const timeSlip = 10;
 
@@ -35,6 +35,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={styles.root}>
+      <Parallax />
       {/* <h1>Land cleared in australia 1972 - 2014 average rate in real time:</h1> */}
         <h1>🌲🌲🌲 🌲🌲🌲</h1>
         <p>New South Wales: {Math.round(this.state.nsw)}</p>

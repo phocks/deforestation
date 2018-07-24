@@ -1,0 +1,83 @@
+---
+  0 debug pnpm:package-json: 
+    initial: 
+      name: "deforestation"
+      version: "1.0.0"
+      description: "A project generated from aunty's react app template."
+      license: "MIT"
+      private: true
+      contributors: 
+        - 
+          name: "Joshua Byrd"
+          email: "phocks@gmail.com"
+      aunty: 
+        type: "react"
+      scripts: 
+        start: "aunty serve"
+        test: "aunty test"
+      devDependencies: 
+        react-test-renderer: "^16.4.1"
+        stickybits: "^3.4.1"
+      dependencies: 
+        @abcnews/aunty: "^9.5.1"
+        d3: "^5.5.0"
+        react: "^16.4.1"
+        react-dom: "^16.4.1"
+        spanify: "^1.2.8"
+      readme: "# deforestation\n\nA project generated from [aunty](https://github.com/abcnews/aunty)'s `react` app template.\n\n## Authors\n\n- Joshua Byrd ([phocks@gmail.com](mailto:phocks@gmail.com))\n"
+      readmeFilename: "README.md"
+      gitHead: "adebecc33afd38598bcc34cff4b64277a2447c28"
+      _id: "deforestation@1.0.0"
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+  1 info pnpm: 
+    message: "Performing headless installation"
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "deforestation"
+      version: "1.0.0"
+      description: "A project generated from aunty's react app template."
+      license: "MIT"
+      private: true
+      contributors: 
+        - 
+          name: "Joshua Byrd"
+          email: "phocks@gmail.com"
+      aunty: 
+        type: "react"
+      scripts: 
+        start: "aunty serve"
+        test: "aunty test"
+      devDependencies: 
+        react-test-renderer: "^16.4.1"
+        stickybits: "^3.4.1"
+      dependencies: 
+        @abcnews/aunty: "^9.5.1"
+        d3: "^5.5.0"
+        react: "^16.4.1"
+        react-dom: "^16.4.1"
+        spanify: "^1.2.8"
+      readme: "# deforestation\n\nA project generated from [aunty](https://github.com/abcnews/aunty)'s `react` app template.\n\n## Authors\n\n- Joshua Byrd ([phocks@gmail.com](mailto:phocks@gmail.com))\n"
+      readmeFilename: "README.md"
+      gitHead: "adebecc33afd38598bcc34cff4b64277a2447c28"
+      _id: "deforestation@1.0.0"
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+  3 debug pnpm:stats: 
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+    removed: 0
+  4 debug pnpm:stage: "importing_started"
+  5 debug pnpm:stats: 
+    added: 0
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+  6 debug pnpm:stage: "importing_done"
+  7 error pnpm: 
+    message: 
+      errno: -22
+      code: "EINVAL"
+      syscall: "readlink"
+      path: "/Users/byrdj5d/Sites/ABC/deforestation/node_modules/react-test-renderer"
+    err: 
+      name: "Error"
+      message: "EINVAL: invalid argument, readlink '/Users/byrdj5d/Sites/ABC/deforestation/node_modules/react-test-renderer'"
+      code: "EINVAL"
+      stack: "Error: EINVAL: invalid argument, readlink '/Users/byrdj5d/Sites/ABC/deforestation/node_modules/react-test-renderer'"

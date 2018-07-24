@@ -7,14 +7,14 @@ import stickybits from "stickybits";
 
 hashify({ hashList: ["interactive"] }); // turn CoreMedia hashtags into divs
 
-// d3.select("body").style("background-color", "darkcyan");
+d3.select("body").style("background-color", "#1a1a1a");
 
 d3.select("div.interactive").classed("u-full", true);
 
 const PROJECT_NAME = "interactive";
 const root = document.querySelector(".interactive");
 
-stickybits('.interactive');
+// stickybits('.interactive');
 
 const init = () => {
   const App = require("./components/App/App.js");

@@ -63,16 +63,16 @@ class Parallax extends React.Component {
 
       context.fillStyle = "#1e2124";
       context.fillRect(0, 0, canvas.width, canvas.height);
-      context.drawImage(bg, 0, pos(0, 600, relativeY, 0), 2300, 3200);
-      context.drawImage(blob1, 700, pos(254, -4400, relativeY, 0));
-      context.drawImage(blob2, 84, pos(954, -5400, relativeY, 0));
-      context.drawImage(blob3, 584, pos(1054, -3900, relativeY, 0));
-      context.drawImage(blob4, 44, pos(1400, -6900, relativeY, 0));
-      context.drawImage(blob5, -40, pos(1730, -5900, relativeY, 0));
-      context.drawImage(blob6, 325, pos(2860, -7900, relativeY, 0));
-      context.drawImage(blob7, 725, pos(2550, -4900, relativeY, 0));
-      context.drawImage(blob8, 570, pos(2300, -3700, relativeY, 0));
-      context.drawImage(blob9, 640, pos(3800, -9000, relativeY, 0));
+      context.drawImage(bg, 0, pos(0, 1000, relativeY, 0), 2300, 3200);
+      context.drawImage(blob1, 700, pos(854, -3000, relativeY, 0));
+      context.drawImage(blob2, 84, pos(954, -2333, relativeY, 0));
+      context.drawImage(blob3, 584, pos(1054, -1340, relativeY, 0));
+      context.drawImage(blob4, 44, pos(1400, -5360, relativeY, 0));
+      context.drawImage(blob5, 400, pos(1730, -2330, relativeY, 0));
+      context.drawImage(blob6, 325, pos(2860, -3000, relativeY, 0));
+      context.drawImage(blob7, 725, pos(2550, -5000, relativeY, 0));
+      context.drawImage(blob8, 570, pos(2300, -1000, relativeY, 0));
+      context.drawImage(blob9, 740, pos(2900, -2000, relativeY, 0));
 
       ticking = false;
     }

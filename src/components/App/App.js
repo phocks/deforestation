@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className={styles.root}>
         <Parallax />
-        <Counter />
+        {/* <Counter /> */}
       </div>
     );
   }

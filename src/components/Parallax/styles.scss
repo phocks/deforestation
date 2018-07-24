@@ -4,3 +4,9 @@
   text-align: center;
   color: black;
 }
+
+:global {
+#blob-container img {
+  display: none;
+}
+}

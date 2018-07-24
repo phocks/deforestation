@@ -21,8 +21,11 @@
   "dependencies": {
     "@abcnews/aunty": "^9.5.1",
     "d3": "^5.5.0",
+    "modernizr": "^3.6.0",
+    "parallax-js": "^3.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "spanify": "^1.2.8"
+    "spanify": "^1.2.8",
+    "three": "^0.94.0"
   }
 }

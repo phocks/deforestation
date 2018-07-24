@@ -24,9 +24,9 @@
         react: "^16.4.1"
         react-dom: "^16.4.1"
         spanify: "^1.2.8"
+      gitHead: "a5f79c6ae19666b1eb39baccada54834e7a8c0df"
       readme: "# deforestation\n\nA project generated from [aunty](https://github.com/abcnews/aunty)'s `react` app template.\n\n## Authors\n\n- Joshua Byrd ([phocks@gmail.com](mailto:phocks@gmail.com))\n"
       readmeFilename: "README.md"
-      gitHead: "adebecc33afd38598bcc34cff4b64277a2447c28"
       _id: "deforestation@1.0.0"
     prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
   1 info pnpm: 
@@ -57,9 +57,9 @@
         react: "^16.4.1"
         react-dom: "^16.4.1"
         spanify: "^1.2.8"
+      gitHead: "a5f79c6ae19666b1eb39baccada54834e7a8c0df"
       readme: "# deforestation\n\nA project generated from [aunty](https://github.com/abcnews/aunty)'s `react` app template.\n\n## Authors\n\n- Joshua Byrd ([phocks@gmail.com](mailto:phocks@gmail.com))\n"
       readmeFilename: "README.md"
-      gitHead: "adebecc33afd38598bcc34cff4b64277a2447c28"
       _id: "deforestation@1.0.0"
     prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
   3 debug pnpm:stats: 
@@ -70,7 +70,31 @@
     added: 0
     prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
   6 debug pnpm:stage: "importing_done"
-  7 error pnpm: 
+  7 info pnpm:root: 
+    added: 
+      dependencyType: "dev"
+      id: "registry.npmjs.org/stickybits/3.4.1"
+      name: "stickybits"
+      realName: "stickybits"
+      version: "3.4.1"
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+  8 info pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/spanify/1.2.8"
+      name: "spanify"
+      realName: "spanify"
+      version: "1.2.8"
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+  9 info pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/d3/5.5.0"
+      name: "d3"
+      realName: "d3"
+      version: "5.5.0"
+    prefix: "/Users/byrdj5d/Sites/ABC/deforestation"
+  10 error pnpm: 
     message: 
       errno: -22
       code: "EINVAL"

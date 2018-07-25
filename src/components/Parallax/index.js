@@ -25,6 +25,7 @@ class Parallax extends React.Component {
     var $ = document.querySelector.bind(document);
 
     var bg = $("#bg");
+    var tree1 = $("#tree-1");
     var blob1 = $("#blob-1");
     var blob2 = $("#blob-2");
     var blob3 = $("#blob-3");
@@ -64,6 +65,7 @@ class Parallax extends React.Component {
       context.fillStyle = "#1e2124";
       context.fillRect(0, 0, canvas.width, canvas.height);
       context.drawImage(bg, 0, pos(0, 1000, relativeY, 0), 2300, 3200);
+      
       context.drawImage(blob1, 700, pos(854, -3000, relativeY, 0));
       context.drawImage(blob2, 84, pos(954, -2333, relativeY, 0));
       context.drawImage(blob3, 584, pos(1054, -1340, relativeY, 0));
@@ -73,6 +75,7 @@ class Parallax extends React.Component {
       context.drawImage(blob7, 725, pos(2550, -5000, relativeY, 0));
       context.drawImage(blob8, 570, pos(2300, -1000, relativeY, 0));
       context.drawImage(blob9, 740, pos(2900, -2000, relativeY, 0));
+      context.drawImage(tree1, 400, pos(1300, -1000, relativeY, 0), 1500, 900);
 
       ticking = false;
     }
@@ -104,6 +107,7 @@ class Parallax extends React.Component {
       <div id="blob-container">
         <canvas width="2500" height="2500" />
         <img id="bg" src={require("./images/plants.jpg")} />
+        <img id="tree-1" src={require("./images/tree.png")} />
         <img id="blob-1" src={require("./images/blob-1.png")} />
         <img id="blob-2" src={require("./images/blob-2.png")} />
         <img id="blob-3" src={require("./images/blob-3.png")} />
